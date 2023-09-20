@@ -9,43 +9,46 @@
 
 <h1>About project</h1>
 
-<h2>CRUD Users</h2>
-<h3>GET</h3>
+<h3>CRUD Users</h3>
+<h4>GET</h4>
 <p>/api/users =>  get list of Users</p>
-<h3>Post</h3>
+<h4>Post</h4>
 <p>/api/users => store User</p>
-<h3>PUT</h3>
+<h4>PUT</h4>
 <p>/api/users/{user} => update User</p>
-<h3>DELETE</h3>
+<h4>DELETE</h4>
 <p>/api/users/{user} => delete User</p>
 
-<h2>CRUD Companies</h2>
-<h3>GET</h3>
+<h3>CRUD Companies</h3>
+<h4>GET</h4>
 <p>/api/companies =>  get list of Companies</p>
-<h3>POST</h3>
+<h4>POST</h4>
 <p>/api/companies => store Company</p>
-<h3>PUT</h3>
+<h4>PUT</h4>
 <p>/api/companies/{user} => update Company</p>
-<h3>DELETE</h3>
+<h4>DELETE</h4>
 <p>/api/companies/{user} => delete Company</p>
 
-<h2>CRUD Comments</h2>
+<h3>CRUD Comments</h3>
 
-<h3>GET</h3>
+<h4>GET</h4>
 <p>/api/comments =>  get list of Comments</p>
-<h3>POST</h3>
+<h4>POST</h4>
 <p>/api/comments => store Comments</p>
-<h3>PUT</h3>
+<h4>PUT</h4>
 <p>/api/comments/{user} => update Comments</p>
-<h3>DELETE</h3>
+<h4>DELETE</h4>
 <p>/api/comments/{user} => delete Comments</p>
 <br>
 
-<h2>GET COMMENTS BY COMPANY ID</h2>
-<h3>GET</h3>
+<h3>GET COMMENTS BY COMPANY ID</h3>
+<h4>GET</h4>
 <p>/api/companies/{company_id}/comments =>  get list of company comments</p>
 
-<h3>GET</h3>
+<h3>GET RATE BY COMPANY ID</h3>
+<h4>GET</h4>
 <p>/api/companies/{company_id}/rate => get rate of company</p>
-<h3>GET</h3>
+
+<h3>GET TOP COMPANIES</h3>
+<h4>GET</h4>
 <p>/api/top => top companies by rate</p>
