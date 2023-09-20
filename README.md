@@ -7,48 +7,45 @@
 	5. php artisan migrate
 	6. php artisan server
 
-About project
+<h1>About project</h1>
 
-CRUD Users
+<h2>CRUD Users</h2>
+<h3>GET</h3>
+<p>/api/users =>  get list of Users</p>
+<h3>Post</h3>
+<p>/api/users => store User</p>
+<h3>PUT</h3>
+<p>/api/users/{user} => update User</p>
+<h3>DELETE</h3>
+<p>/api/users/{user} => delete User</p>
 
-GET
-/api/users =>  get list of Users
-Post
-/api/users => store User
-PUT
-/api/users/{user} => update User
-DELETE
-/api/users/{user} => delete User
+<h2>CRUD Companies</h2>
+<h3>GET</h3>
+<p>/api/companies =>  get list of Companies</p>
+<h3>POST</h3>
+<p>/api/companies => store Company</p>
+<h3>PUT</h3>
+<p>/api/companies/{user} => update Company</p>
+<h3>DELETE</h3>
+<p>/api/companies/{user} => delete Company</p>
 
-CRUD Companies
+<h2>CRUD Comments</h2>
 
-GET
-/api/companies =>  get list of Companies
-Post
-/api/companies => store Company
-PUT
-/api/companies/{user} => update Company
-DELETE
-/api/companies/{user} => delete Company
+<h3>GET</h3>
+<p>/api/comments =>  get list of Comments</p>
+<h3>POST</h3>
+<p>/api/comments => store Comments</p>
+<h3>PUT</h3>
+<p>/api/comments/{user} => update Comments</p>
+<h3>DELETE</h3>
+<p>/api/comments/{user} => delete Comments</p>
+<br>
 
-CRUD Comments
+<h2>GET COMMENTS BY COMPANY ID</h2>
+<h3>GET</h3>
+<p>/api/companies/{company_id}/comments =>  get list of company comments</p>
 
-GET
-/api/comments =>  get list of Comments
-Post
-/api/comments => store Comments
-PUT
-/api/comments/{user} => update Comments
-DELETE
-/api/comments/{user} => delete Comments
-
-
-
-GET COMMENTS BY COMPANY ID
-
-GET
-/api/companies/{company_id}/comments =>  get list of company comments
-GET
-/api/companies/{company_id}/rate => get rate of company
-GET
-/api/top => top companies by rate
+<h3>GET</h3>
+<p>/api/companies/{company_id}/rate => get rate of company</p>
+<h3>GET</h3>
+<p>/api/top => top companies by rate</p>
